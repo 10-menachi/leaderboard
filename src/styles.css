@@ -10,7 +10,7 @@ body {
     padding: 5rem;
 }
 
-section {
+.section {
     display: flex;
     justify-content: space-between;
 }
