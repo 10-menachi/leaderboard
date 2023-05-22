@@ -26,21 +26,23 @@
     <h2>LeaderBoard</h2>
 
     <section>
-        <div class="head d-flex w-100 justify-content-between mb-3">
-            <h2>Recent Scores</h2>
-            <button type="submit" class="btn btn-primary refresh">Refresh</button>
-        </div>
         <div class="section">
-            <table class="table w-50">
-                <thead>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Score</th>
-                    </tr>
-                </thead>
-                <tbody class="table-body">
-                </tbody>
-            </table>
+            <section class="table d-flex flex-column">
+                <div class="head d-flex justify-content-between w-50 mb-3">
+                    <h2>Recent Scores</h2>
+                    <button type="submit" class="btn btn-primary refresh">Refresh</button>
+                </div>
+                <table class="table w-50">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body">
+                    </tbody>
+                </table>
+            </section>
             <form action="" class="scores w-25">
                 <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                 <input type="number" class="form-control" id="score" placeholder="Your Score" required>
