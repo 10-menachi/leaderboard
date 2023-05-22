@@ -85,9 +85,15 @@
 
 To get a local copy up and running, follow these steps.
 
-<ul>
-  <li>Open the HTML file in the dist folder a browser of your choice</li>
-</ul>
+Run:
+
+```sh
+  npm run build
+```
+
+Then:
+
+Open the HTML file in the dist folder a browser of your choice. <br />
 
 The link below provides details on browser support <br />
 
