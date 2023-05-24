@@ -8,10 +8,9 @@ const refresh = document.querySelector('.refresh');
 refresh.addEventListener('click', () => {
   clearScores();
 });
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
   addScore(form.name.value, form.score.value);
   form.reset();
-  showScores();
 });
 showScores();
